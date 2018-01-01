@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration  
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"  
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<settings>
+		<setting name="autoMappingBehavior" value="FULL" />
+		<setting name="logImpl" value="LOG4J" />
+		<setting name="lazyLoadingEnabled" value="true"/>
+		<setting name="aggressiveLazyLoading" value="false"/>
+	</settings>
+	<!--配置别名 typeAliases和environments是平等级别的标签 type是实体类的完整类名 alias是类的别名 -->
+	<typeAliases>
+		<!-- 使用全限定名來指定別名 -->
+		<!-- <typeAlias type="org.lan.pojo.User" alias="User" /> -->
+		<!-- 使用掃包方式指定別名,默認使用首字母小寫的非限定類名 -->
+		<package name="org.lan.pojo"/>
+	</typeAliases>
+
+	<environments default="development">
+		<environment id="development">
+			<transactionManager type="JDBC" />
+			<dataSource type="com.smbms.util.C3P0DataSourceFactory">
+				<property name="driverClass" value="com.mysql.jdbc.Driver" />
+				<property name="jdbcUrl" value="jdbc:mysql://127.0.0.1:3306/mybatistest?useSSL=true" />
+				<property name="user" value="root" />
+				<property name="password" value="root" />
+				<property name="idleConnectionTestPeriod" value="60" />
+				<property name="maxPoolSize" value="20" />
+				<property name="maxIdleTime" value="600" />
+			</dataSource>
+		</environment>
+	</environments>
+	<mappers>
+		<!-- 映射文件的位置 -->
+		<mapper resource="org/lan/mapper/ArticleMapper.xml"/>
+		<mapper resource="org/lan/mapper/CardMapper.xml"/>
+		<mapper resource="org/lan/mapper/ClazzMapper.xml"/>
+		<mapper resource="org/lan/mapper/OrderMapper.xml"/>
+		<mapper resource="org/lan/mapper/PersonMapper.xml"/>
+		<mapper resource="org/lan/mapper/StudentMapper.xml"/>
+		<mapper resource="org/lan/mapper/UsersMapper.xml"/>
+		<mapper resource="org/lan/mapper/EmployeeMapper.xml"/>
+	</mappers>
+</configuration>  

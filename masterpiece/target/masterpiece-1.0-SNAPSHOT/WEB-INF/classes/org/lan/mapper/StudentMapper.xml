@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.smbms.dao.StudentMapper">
+<!--  根据id查询学生信息，多表连接，返回resultMap-->
+<select id="selectStudentById" parameterType="int" resultMap="studentResultMap">
+select * from tb_clazz c,tb_student s
+where c.id=s.clazz_id
+and s.id=#{id}
+</select>
+
+<!--  根据班级id查询学生信息，返回resultMap-->
+<select id="selectStudentByClazzId" parameterType="int" resultMap="studentResultMap">
+select * from tb_student where clazz_id=#{id}
+</select>
+<!--  映射Student对象的resultMap-->
+<resultMap type="com.smbms.pojo.Student" id="studentResultMap">
+<id property="id" column="id"/>
+<result property="name" column="name"/>
+<result property="sex" column="sex"/>
+<result property="age" column="age"/>
+<!-- 多对�?关联映射：association -->
+<association property="clazz" javaType="com.smbms.pojo.Clazz">
+<id property="id" column="id"/>
+<result property="code" column="code"/>
+<result property="name" column="name"/>
+</association>
+</resultMap>
+</mapper>
