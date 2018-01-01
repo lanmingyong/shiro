@@ -61,7 +61,6 @@
 <input type="file" id="uploadFile" name="uploadFile"/>
 <input type="button" id="upload" value="上传" /><br>
     <div style="width: 161px;margin: 0px auto;">
-        <img src="${pageContext.request.contextPath}/images/wait.gif"  id="imgWait" />
-    </div>
+        <img src="${pageContext.request.contextPath}/images/wait.gif"  id="imgWait" /></div>
 </form>
 </body>
