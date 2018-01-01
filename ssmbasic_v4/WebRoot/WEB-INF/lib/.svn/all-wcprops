@@ -1,0 +1,473 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/guoxin/!svn/ver/56635/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib
+END
+apache-mime4j-0.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/apache-mime4j-0.6.jar
+END
+tiles-core-2.0.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/tiles-core-2.0.6.jar
+END
+spring-beans-4.2.1.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/spring-beans-4.2.1.RELEASE.jar
+END
+commons-digester-2.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/commons-digester-2.0.jar
+END
+spring-context-support-4.2.1.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/spring-context-support-4.2.1.RELEASE.jar
+END
+ehcache-core-2.6.8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/ehcache-core-2.6.8.jar
+END
+htmlparser.jar
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/htmlparser.jar
+END
+commons-io-2.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/commons-io-2.4.jar
+END
+mybatis-generator-core-1.3.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/mybatis-generator-core-1.3.2.jar
+END
+transactions-essentials-all.jar
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/transactions-essentials-all.jar
+END
+slf4j-log4j12-1.7.12.jar
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/slf4j-log4j12-1.7.12.jar
+END
+commons-pool-1.5.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/commons-pool-1.5.6.jar
+END
+commons-lang.jar
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/commons-lang.jar
+END
+jxl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/jxl.jar
+END
+shiro-web-1.3.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/guoxin/!svn/ver/50641/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/shiro-web-1.3.2.jar
+END
+aspectjrt.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/aspectjrt.jar
+END
+log4j-1.2.17.jar
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/log4j-1.2.17.jar
+END
+pinyin4j-2.5.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/pinyin4j-2.5.0.jar
+END
+aopalliance-1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/aopalliance-1.0.jar
+END
+mybatis-spring-1.2.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/mybatis-spring-1.2.3.jar
+END
+freemarker-2.3.16.jar
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/freemarker-2.3.16.jar
+END
+jstl-1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/jstl-1.2.jar
+END
+tiles-jsp-2.0.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/tiles-jsp-2.0.6.jar
+END
+spring-expression-4.2.1.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/spring-expression-4.2.1.RELEASE.jar
+END
+commons-dbcp-1.2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/commons-dbcp-1.2.2.jar
+END
+httpclient-cache-4.2.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/httpclient-cache-4.2.3.jar
+END
+spring-jdbc-4.2.1.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/spring-jdbc-4.2.1.RELEASE.jar
+END
+shiro-spring-1.3.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/guoxin/!svn/ver/50641/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/shiro-spring-1.3.2.jar
+END
+commons-collections-3.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/commons-collections-3.2.jar
+END
+tiles-api-2.0.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/tiles-api-2.0.6.jar
+END
+httpmime-4.2.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/httpmime-4.2.3.jar
+END
+fastjson-1.2.7.jar
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/fastjson-1.2.7.jar
+END
+json-lib-2.4-jdk15.jar
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/json-lib-2.4-jdk15.jar
+END
+spring-test-4.2.1.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/spring-test-4.2.1.RELEASE.jar
+END
+spring-aop-4.2.1.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/spring-aop-4.2.1.RELEASE.jar
+END
+commons-pool2-2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/commons-pool2-2.2.jar
+END
+oscache-2.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/oscache-2.1.jar
+END
+javaee-api-7.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/guoxin/!svn/ver/56635/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/javaee-api-7.0.jar
+END
+proxool-0.8.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/proxool-0.8.3.jar
+END
+junit-4.10.jar
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/junit-4.10.jar
+END
+shiro-core-1.3.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/guoxin/!svn/ver/50641/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/shiro-core-1.3.2.jar
+END
+spring-tx-4.2.1.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/spring-tx-4.2.1.RELEASE.jar
+END
+joda-time-2.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/joda-time-2.4.jar
+END
+commons-lang3-3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/commons-lang3-3.1.jar
+END
+dom4j-1.6.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/dom4j-1.6.1.jar
+END
+httpclient-4.2.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/httpclient-4.2.3.jar
+END
+jsf-impl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/jsf-impl.jar
+END
+druid-1.0.13.jar
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/druid-1.0.13.jar
+END
+httpcore-4.2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/httpcore-4.2.2.jar
+END
+commons-fileupload-1.3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/commons-fileupload-1.3.1.jar
+END
+commons-logging-1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/commons-logging-1.2.jar
+END
+activation-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/activation-1.1.jar
+END
+mysql-connector-java-5.1.30.jar
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/mysql-connector-java-5.1.30.jar
+END
+jedis-2.6.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/jedis-2.6.0.jar
+END
+ognl-3.0.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/ognl-3.0.6.jar
+END
+shiro-ehcache-1.3.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/guoxin/!svn/ver/50641/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/shiro-ehcache-1.3.2.jar
+END
+javassist-3.9.0.GA.jar
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/javassist-3.9.0.GA.jar
+END
+aspectjweaver.jar
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/aspectjweaver.jar
+END
+htmllexer.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/htmllexer.jar
+END
+spring-core-4.2.1.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/spring-core-4.2.1.RELEASE.jar
+END
+mybatis-3.3.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/mybatis-3.3.0.jar
+END
+c3p0-0.9.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/c3p0-0.9.5.jar
+END
+slf4j-api-1.7.12.jar
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/slf4j-api-1.7.12.jar
+END
+cglib-2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/cglib-2.2.jar
+END
+swarmcache-1.0RC2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/swarmcache-1.0RC2.jar
+END
+spring-oxm-4.2.1.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/spring-oxm-4.2.1.RELEASE.jar
+END
+ezmorph-1.0.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/ezmorph-1.0.6.jar
+END
+quartz-2.2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/guoxin/!svn/ver/44355/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/quartz-2.2.2.jar
+END
+antlr-2.7.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/antlr-2.7.6.jar
+END
+mchange-commons-java-0.2.3.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/mchange-commons-java-0.2.3.3.jar
+END
+jsf-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/jsf-api.jar
+END
+javax.mail-1.5.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/javax.mail-1.5.0.jar
+END
+commons-codec-1.9.jar
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/commons-codec-1.9.jar
+END
+quartz-1.8.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/quartz-1.8.4.jar
+END
+spring-web-4.2.1.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/spring-web-4.2.1.RELEASE.jar
+END
+commons-beanutils-1.7.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/commons-beanutils-1.7.0.jar
+END
+spring-webmvc-4.2.1.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/spring-webmvc-4.2.1.RELEASE.jar
+END
+spring-context-4.2.1.RELEASE.jar
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/WebRoot/WEB-INF/lib/spring-context-4.2.1.RELEASE.jar
+END

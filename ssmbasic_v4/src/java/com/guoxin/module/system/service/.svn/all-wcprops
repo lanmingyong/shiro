@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/guoxin/!svn/ver/50641/Common%20tools/ssmbasic_v4/src/java/com/guoxin/module/system/service
+END
+IPermissionService.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/guoxin/!svn/ver/50641/Common%20tools/ssmbasic_v4/src/java/com/guoxin/module/system/service/IPermissionService.java
+END
+IUserService.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/src/java/com/guoxin/module/system/service/IUserService.java
+END
+IRoleService.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/guoxin/!svn/ver/50641/Common%20tools/ssmbasic_v4/src/java/com/guoxin/module/system/service/IRoleService.java
+END

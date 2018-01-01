@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/guoxin/!svn/ver/50641/Common%20tools/ssmbasic_v4/src/java/com/guoxin/module/system/condition
+END
+PermissionCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/guoxin/!svn/ver/50641/Common%20tools/ssmbasic_v4/src/java/com/guoxin/module/system/condition/PermissionCondition.java
+END
+UserCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/src/java/com/guoxin/module/system/condition/UserCondition.java
+END
+RoleCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/guoxin/!svn/ver/50641/Common%20tools/ssmbasic_v4/src/java/com/guoxin/module/system/condition/RoleCondition.java
+END

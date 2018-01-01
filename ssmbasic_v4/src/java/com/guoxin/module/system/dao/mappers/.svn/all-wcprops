@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/guoxin/!svn/ver/50641/Common%20tools/ssmbasic_v4/src/java/com/guoxin/module/system/dao/mappers
+END
+UserMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/guoxin/!svn/ver/50641/Common%20tools/ssmbasic_v4/src/java/com/guoxin/module/system/dao/mappers/UserMapper.xml
+END
+RoleMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/guoxin/!svn/ver/50641/Common%20tools/ssmbasic_v4/src/java/com/guoxin/module/system/dao/mappers/RoleMapper.xml
+END
+PermissionMapper.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/guoxin/!svn/ver/50641/Common%20tools/ssmbasic_v4/src/java/com/guoxin/module/system/dao/mappers/PermissionMapper.xml
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/guoxin/!svn/ver/50641/Common%20tools/ssmbasic_v4/src/java/com/guoxin/module/system/service/impl
+END
+UserService.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/guoxin/!svn/ver/50641/Common%20tools/ssmbasic_v4/src/java/com/guoxin/module/system/service/impl/UserService.java
+END
+RoleService.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/guoxin/!svn/ver/50641/Common%20tools/ssmbasic_v4/src/java/com/guoxin/module/system/service/impl/RoleService.java
+END
+PermissionService.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/guoxin/!svn/ver/50641/Common%20tools/ssmbasic_v4/src/java/com/guoxin/module/system/service/impl/PermissionService.java
+END

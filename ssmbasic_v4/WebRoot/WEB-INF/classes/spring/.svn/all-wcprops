@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/guoxin/!svn/ver/56635/Common%20tools/ssmbasic_v4/src/config/spring
+END
+spring-shiro.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/guoxin/!svn/ver/50641/Common%20tools/ssmbasic_v4/src/config/spring/spring-shiro.xml
+END
+spring-mvc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/guoxin/!svn/ver/56635/Common%20tools/ssmbasic_v4/src/config/spring/spring-mvc.xml
+END
+spring-base.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/src/config/spring/spring-base.xml
+END

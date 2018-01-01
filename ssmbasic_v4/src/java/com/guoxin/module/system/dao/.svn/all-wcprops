@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/guoxin/!svn/ver/50641/Common%20tools/ssmbasic_v4/src/java/com/guoxin/module/system/dao
+END
+IPermissionDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/guoxin/!svn/ver/50641/Common%20tools/ssmbasic_v4/src/java/com/guoxin/module/system/dao/IPermissionDao.java
+END
+IUserDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/src/java/com/guoxin/module/system/dao/IUserDao.java
+END
+IRoleDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/guoxin/!svn/ver/50641/Common%20tools/ssmbasic_v4/src/java/com/guoxin/module/system/dao/IRoleDao.java
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/guoxin/!svn/ver/56635/Common%20tools/ssmbasic_v4/src/config
+END
+redis.properties
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/guoxin/!svn/ver/44348/Common%20tools/ssmbasic_v4/src/config/redis.properties
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/src/config/log4j.properties
+END
+jdbc.properties
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/src/config/jdbc.properties
+END

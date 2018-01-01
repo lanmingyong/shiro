@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.guoxin.module.system.dao.IPermissionDao">
+	
+	<resultMap id="permissionResultMap" type="Permission">
+        <result property="id" column="id"/>
+        <result property="token" column="token"/>
+        <result property="name" column="name"/>
+	</resultMap>
+	
+	<select id="getPermissionById" resultMap="permissionResultMap" parameterType="java.lang.Integer">
+        SELECT * FROM permission WHERE id = #{value}
+    </select>
+    
+	<insert id="insertPermission" parameterType="Permission" useGeneratedKeys="true" keyProperty="id">
+		INSERT INTO permission (
+    		id
+            <if test="token != null">,token</if>
+            <if test="name != null">,name</if>
+		)
+		VALUES
+		(
+		    #{id}
+            <if test="token != null">,#{token}</if>
+            <if test="name != null">,#{name}</if>
+		)
+	</insert>
+	
+	<update id="updatePermission" parameterType="Permission">
+		UPDATE permission
+		<set>
+            <if test="token != null">token = #{token},</if>
+            <if test="name != null">name = #{name},</if>
+		</set>
+		WHERE id = #{id}
+	</update>
+	
+	<delete id="deletePermissionById" parameterType="java.lang.Integer">
+		DELETE FROM permission WHERE id = #{value}
+	</delete>
+	
+	<select id="getPermissionList" resultMap="permissionResultMap" parameterType="Permission">
+		SELECT A.* FROM permission A
+		<where>
+            <if test="token != null">AND A.token like CONCAT('%',#{token},'%')</if>
+            <if test="name != null">AND A.name like CONCAT('%',#{name},'%')</if>
+		</where>
+	</select>
+	
+	<select id="getPermissionPageList" resultMap="permissionResultMap" parameterType="PermissionCondition">
+	    SELECT T1.* FROM permission T1, 
+        (SELECT A.id FROM permission A
+        <where>
+            <if test="permission.token != null">AND A.token like CONCAT('%',#{permission.token},'%')</if>
+            <if test="permission.name != null">AND A.name like CONCAT('%',#{permission.name},'%')</if>
+        </where>
+        <if test="orderBys != null">
+          order by ${orderBys} 
+        </if>
+        <if test="limit != null">
+          limit #{limit},#{offset}
+        </if>
+        ) T2 WHERE T1.id = T2.id
+    </select>
+	
+	<select id="getPermissionCount" resultType="java.lang.Integer" parameterType="PermissionCondition">
+		SELECT COUNT(*) FROM permission A
+		<where>
+            <if test="permission.token != null">AND A.token like CONCAT('%',#{permission.token},'%')</if>
+            <if test="permission.name != null">AND A.name like CONCAT('%',#{permission.name},'%')</if>
+		</where>
+	</select>
+	
+</mapper>

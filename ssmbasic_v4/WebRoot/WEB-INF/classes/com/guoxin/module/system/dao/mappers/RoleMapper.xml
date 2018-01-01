@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.guoxin.module.system.dao.IRoleDao">
+	
+	<resultMap id="roleResultMap" type="Role">
+        <result property="id" column="id"/>
+        <result property="token" column="token"/>
+        <result property="name" column="name"/>
+        <collection property="permissions" column="id" javaType="java.util.ArrayList" ofType="Permission" select="selectPermissionsByRid" />
+	</resultMap>
+	
+	<select id="selectPermissionsByRid" resultMap="com.guoxin.module.system.dao.IPermissionDao.permissionResultMap" parameterType="java.lang.Integer">
+        SELECT A.* FROM permission A, role_to_permission B WHERE A.id = B.pid AND B.rid = #{value}
+    </select>
+    
+	<select id="getRoleById" resultMap="roleResultMap" parameterType="java.lang.Integer">
+        SELECT * FROM role WHERE id = #{value}
+    </select>
+    
+	<insert id="insertRole" parameterType="Role" useGeneratedKeys="true" keyProperty="id">
+		INSERT INTO role (
+    		id
+            <if test="token != null">,token</if>
+            <if test="name != null">,name</if>
+		)
+		VALUES
+		(
+		    #{id}
+            <if test="token != null">,#{token}</if>
+            <if test="name != null">,#{name}</if>
+		)
+	</insert>
+	
+	<update id="updateRole" parameterType="Role">
+		UPDATE role
+		<set>
+            <if test="token != null">token = #{token},</if>
+            <if test="name != null">name = #{name},</if>
+		</set>
+		WHERE id = #{id}
+	</update>
+	
+	<delete id="deleteRoleById" parameterType="java.lang.Integer">
+		DELETE FROM role WHERE id = #{value}
+	</delete>
+	
+	<select id="getRoleList" resultMap="roleResultMap" parameterType="Role">
+		SELECT A.* FROM role A
+		<where>
+            <if test="token != null">AND A.token like CONCAT('%',#{token},'%')</if>
+            <if test="name != null">AND A.name like CONCAT('%',#{name},'%')</if>
+		</where>
+	</select>
+	
+	<select id="getRolePageList" resultMap="roleResultMap" parameterType="RoleCondition">
+	    SELECT T1.* FROM role T1, 
+        (SELECT A.id FROM role A
+        <where>
+            <if test="role.token != null">AND A.token like CONCAT('%',#{role.token},'%')</if>
+            <if test="role.name != null">AND A.name like CONCAT('%',#{role.name},'%')</if>
+        </where>
+        <if test="orderBys != null">
+          order by ${orderBys} 
+        </if>
+        <if test="limit != null">
+          limit #{limit},#{offset}
+        </if>
+        ) T2 WHERE T1.id = T2.id
+    </select>
+	
+	<select id="getRoleCount" resultType="java.lang.Integer" parameterType="RoleCondition">
+		SELECT COUNT(*) FROM role A
+		<where>
+            <if test="role.token != null">AND A.token like CONCAT('%',#{role.token},'%')</if>
+            <if test="role.name != null">AND A.name like CONCAT('%',#{role.name},'%')</if>
+		</where>
+	</select>
+	
+</mapper>

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/guoxin/!svn/ver/50641/Common%20tools/ssmbasic_v4/src/java/com/guoxin/common/security
+END
+MyFormAuthenticationFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/guoxin/!svn/ver/50641/Common%20tools/ssmbasic_v4/src/java/com/guoxin/common/security/MyFormAuthenticationFilter.java
+END
+PermissionsAuthorizationFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/guoxin/!svn/ver/50641/Common%20tools/ssmbasic_v4/src/java/com/guoxin/common/security/PermissionsAuthorizationFilter.java
+END
+SystemAuthorizingRealm.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/guoxin/!svn/ver/50641/Common%20tools/ssmbasic_v4/src/java/com/guoxin/common/security/SystemAuthorizingRealm.java
+END
+RolesAuthorizationFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/guoxin/!svn/ver/50641/Common%20tools/ssmbasic_v4/src/java/com/guoxin/common/security/RolesAuthorizationFilter.java
+END

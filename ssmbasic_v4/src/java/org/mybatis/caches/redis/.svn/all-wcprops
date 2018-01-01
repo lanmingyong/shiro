@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/guoxin/!svn/ver/44348/Common%20tools/ssmbasic_v4/src/java/org/mybatis/caches/redis
+END
+ConfigWithHost.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/guoxin/!svn/ver/44348/Common%20tools/ssmbasic_v4/src/java/org/mybatis/caches/redis/ConfigWithHost.java
+END
+RedisTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/src/java/org/mybatis/caches/redis/RedisTestCase.java
+END
+RedisCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/src/java/org/mybatis/caches/redis/RedisCallback.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/src/java/org/mybatis/caches/redis/package-info.java
+END
+RedisConfigurationBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/guoxin/!svn/ver/44348/Common%20tools/ssmbasic_v4/src/java/org/mybatis/caches/redis/RedisConfigurationBuilder.java
+END
+SerializeUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/src/java/org/mybatis/caches/redis/SerializeUtil.java
+END
+RedisCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/guoxin/!svn/ver/44348/Common%20tools/ssmbasic_v4/src/java/org/mybatis/caches/redis/RedisCache.java
+END
+DummyReadWriteLock.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/guoxin/!svn/ver/44001/Common%20tools/ssmbasic_v4/src/java/org/mybatis/caches/redis/DummyReadWriteLock.java
+END
