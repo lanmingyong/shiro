@@ -7,10 +7,74 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35801fd9-4c44-4e70-a490-b44236656d79" name="Default" comment="首次提交代码">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" />
       <change beforePath="D:/GitRepository/test.git/config" afterPath="D:/GitRepository/test.git/config" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/.project" afterPath="$PROJECT_DIR$/.project" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/lan/designpattern/singleton/Singleton.java" afterPath="$PROJECT_DIR$/src/main/java/org/lan/designpattern/singleton/Singleton.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/jsp/ajaxUpload2.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/static/jsp/ajaxUpload2.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/jsp/upload.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/static/jsp/upload.jsp" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext-shiro.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ehcache.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/dao/ArticleMapper.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/dao/ArticleMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/dao/CardMapper.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/dao/CardMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/dao/ClazzMapper.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/dao/ClazzMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/dao/EmployeeMapper.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/dao/EmployeeMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/dao/OrderMapper.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/dao/OrderMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/dao/PersonMapper.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/dao/PersonMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/dao/StudentMapper.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/dao/StudentMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/dao/UsersMapper.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/dao/UsersMapper.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/designpattern/singleton/Singleton$SingletonHepler.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/designpattern/singleton/Singleton$SingletonHepler.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/designpattern/singleton/Singleton.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/designpattern/singleton/Singleton.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/ehcache/EhcacheTest.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/ehcache/EhcacheTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/ehcache/MethodCacheInterceptor.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/ehcache/MethodCacheInterceptor.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/exception/ExtException.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/exception/ExtException.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/exception/NullFileException.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/exception/NullFileException.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/pojo/Article.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/pojo/Article.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/pojo/Card.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/pojo/Card.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/pojo/Clazz.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/pojo/Clazz.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/pojo/Employee.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/pojo/Employee.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/pojo/Order.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/pojo/Order.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/pojo/Person.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/pojo/Person.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/pojo/Student.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/pojo/Student.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/pojo/UploadItemInfo.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/pojo/UploadItemInfo.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/pojo/Users.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/pojo/Users.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/service/ClazzService.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/service/ClazzService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/service/EmployeeService.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/service/EmployeeService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/service/OrderService.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/service/OrderService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/service/PersonService.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/service/PersonService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/service/StudentService.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/service/StudentService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/service/UsersService.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/service/UsersService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/servlet/OutputInfo.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/servlet/OutputInfo.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/servlet/UploadServlet.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/servlet/UploadServlet.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/servlet/WelcomeYou.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/servlet/WelcomeYou.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/shiro/AuthenticationTest.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/shiro/AuthenticationTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/shiro/PasswordTest.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/shiro/PasswordTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/shiro/Quickstart.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/shiro/Quickstart.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/shiro/controller/ShiroController.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/shiro/controller/ShiroController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/shiro/realm/SecondRealm.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/shiro/realm/SecondRealm.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/shiro/realm/ShiroRealm.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/shiro/realm/ShiroRealm.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/shiro/service/ShiroService.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/shiro/service/ShiroService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/spring/Application$1.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/spring/Application$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/spring/Application.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/spring/Application.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/spring/MessageService.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/spring/MessageService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/springmvc/AjaxUploadController.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/springmvc/AjaxUploadController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/springmvc/FileController.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/springmvc/FileController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/springmvc/FileUploadController.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/springmvc/FileUploadController.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/springmvc/Users.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/springmvc/Users.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/swing/ActionHandler.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/swing/ActionHandler.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/swing/Loggins$1.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/swing/Loggins$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/swing/Loggins$2.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/swing/Loggins$2.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/swing/Loggins.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/swing/Loggins.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/swing/Test$1.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/swing/Test$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/swing/Test.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/swing/Test.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/util/C3P0DataSourceFactory.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/util/C3P0DataSourceFactory.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/util/JDBCUtils.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/util/JDBCUtils.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/util/MybatisUtils.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/util/MybatisUtils.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/shiro.ini" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/springMVC-servlet.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/org.lan/masterpiece/pom.properties" afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/org.lan/masterpiece/pom.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,11 +107,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
+            <state relative-caret-position="27">
               <caret line="74" column="22" lean-forward="false" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/database.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Singleton.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/lan/designpattern/singleton/Singleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -66,7 +150,7 @@
       <file leaf-file-name="applicationContext-shiro.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-shiro.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-135">
+            <state relative-caret-position="270">
               <caret line="10" column="26" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="115" />
               <folding />
             </state>
@@ -160,6 +244,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext-shiro.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/springMVC-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/database.properties" />
       </list>
     </option>
   </component>
@@ -212,8 +297,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -237,6 +320,40 @@
               <item name="masterpiece" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="masterpiece" type="b2602c69:ProjectViewProjectNode" />
+              <item name="masterpiece" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="masterpiece" type="b2602c69:ProjectViewProjectNode" />
+              <item name="masterpiece" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lan" type="462c0819:PsiDirectoryNode" />
+              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="masterpiece" type="b2602c69:ProjectViewProjectNode" />
+              <item name="masterpiece" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lan" type="462c0819:PsiDirectoryNode" />
+              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="masterpiece" type="b2602c69:ProjectViewProjectNode" />
+              <item name="masterpiece" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -254,10 +371,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="D:/GitRepository" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -290,12 +409,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Singleton">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="Singleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.lan.designpattern.singleton.Singleton" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="masterpiece" />
+      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" />
@@ -402,6 +534,15 @@
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.masterpiece" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Singleton" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Singleton" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -419,16 +560,16 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.81879956" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.81879956" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.81879956" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26877683" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2725322" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -479,24 +620,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/jsp/ajaxUpload2.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/lan/springmvc/AjaxUploadController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-          <folding>
-            <element signature="e#673#674#0" expanded="false" />
-            <element signature="e#731#732#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/springMVC-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
@@ -563,10 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
           <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-          <folding>
-            <element signature="e#673#674#0" expanded="false" />
-            <element signature="e#731#732#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -800,10 +919,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-          <folding>
-            <element signature="e#673#674#0" expanded="false" />
-            <element signature="e#731#732#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -849,7 +964,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-shiro.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135">
+        <state relative-caret-position="270">
           <caret line="10" column="26" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="115" />
           <folding />
         </state>
@@ -857,8 +972,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
+        <state relative-caret-position="27">
           <caret line="74" column="22" lean-forward="false" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/database.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/lan/designpattern/singleton/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
         </state>
       </provider>

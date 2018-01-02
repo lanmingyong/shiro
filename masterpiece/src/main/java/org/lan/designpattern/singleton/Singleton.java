@@ -20,22 +20,21 @@ public class Singleton {
 		}
 	}
 
-	public static class SingletonHepler()
-	{
+	public static class SingletonHepler{
 		private static final Singleton INSTANCE = new Singleton();
 	}
 
-public static Singleton getInstance() {
-	return SingletonHepler.INSTANCE;
-}
+	public static Singleton getInstance() {
+		return SingletonHepler.INSTANCE;
+	}
 
-public static void main(String[] args) {
-	System.out.println("Singleton.test()----->"+Singleton.test());
-	System.out.println("Singleton.getInstance----->"+Singleton.getInstance());
-}
-
-private static String test() {
-	// TODO Auto-generated method stub
-	return singleton;
-}
+	public static void main(String[] args) {
+		System.out.println("Singleton.test()----->"+Singleton.test());
+		System.out.println("Singleton.getInstance----->"+Singleton.getInstance());
+	}
+	
+	private static Singleton test() {
+		// TODO Auto-generated method stub
+		return singleton;
+	}
 }
