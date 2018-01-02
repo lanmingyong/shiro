@@ -12,7 +12,7 @@
 </head>
 <body>
 <form action="${pageContext.request.contextPath}/jsp/upload" method="post" enctype="multipart/form-data" style="text-align: center;">
-    <table>
+<table>
         <tr>
             <td>请选择要上传的文件:</td>
             <td><input type="file" name="file1" size="40"></td>
