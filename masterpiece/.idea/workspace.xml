@@ -7,76 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35801fd9-4c44-4e70-a490-b44236656d79" name="Default" comment="修改maven的pom.xml日志依赖&#10;修改log4j.xml&#10;添加log4j2.xml">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_5_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/lan/spring/aop/LogHandler.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.springBeans" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/lan/spring/aop/AopTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/lan/spring/aop/HelloWorld.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/lan/spring/aop/HelloWorldImpl1.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/lan/spring/aop/HelloWorldImpl2.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/lan/spring/aop/TimeHandler.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/aop.xml" />
       <change beforePath="D:/GitRepository/test.git/config" afterPath="D:/GitRepository/test.git/config" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/masterpiece_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/masterpiece_war_exploded.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/masterpiece.iml" afterPath="$PROJECT_DIR$/masterpiece.iml" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/database.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/dao/ArticleMapper.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/dao/ArticleMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/dao/CardMapper.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/dao/CardMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/dao/ClazzMapper.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/dao/ClazzMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/dao/EmployeeMapper.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/dao/EmployeeMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/dao/OrderMapper.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/dao/OrderMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/dao/PersonMapper.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/dao/PersonMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/dao/StudentMapper.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/dao/StudentMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/dao/UsersMapper.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/dao/UsersMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/designpattern/singleton/ConfigManager.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/designpattern/singleton/ConfigManager.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/designpattern/singleton/ConfigManager2.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/designpattern/singleton/ConfigManager2.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/designpattern/singleton/Singleton$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/designpattern/singleton/Singleton$SingletonHepler.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/designpattern/singleton/Singleton$SingletonHepler.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/designpattern/singleton/Singleton.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/designpattern/singleton/Singleton.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/ehcache/EhcacheTest.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/ehcache/EhcacheTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/ehcache/MethodCacheInterceptor.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/ehcache/MethodCacheInterceptor.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/exception/ExtException.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/exception/ExtException.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/exception/NullFileException.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/exception/NullFileException.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/pojo/Article.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/pojo/Article.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/pojo/Card.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/pojo/Card.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/pojo/Clazz.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/pojo/Clazz.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/pojo/Employee.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/pojo/Employee.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/pojo/Order.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/pojo/Order.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/pojo/Person.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/pojo/Person.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/pojo/Student.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/pojo/Student.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/pojo/UploadItemInfo.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/pojo/UploadItemInfo.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/pojo/Users.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/pojo/Users.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/service/ClazzService.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/service/ClazzService.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/service/EmployeeService.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/service/EmployeeService.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/service/OrderService.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/service/OrderService.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/service/PersonService.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/service/PersonService.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/service/StudentService.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/service/StudentService.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/service/UsersService.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/service/UsersService.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/servlet/OutputInfo.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/servlet/OutputInfo.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/servlet/UploadServlet.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/servlet/UploadServlet.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/servlet/WelcomeYou.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/servlet/WelcomeYou.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/shiro/AuthenticationTest.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/shiro/AuthenticationTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/shiro/PasswordTest.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/shiro/PasswordTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/shiro/Quickstart.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/shiro/Quickstart.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/shiro/controller/ShiroController.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/shiro/controller/ShiroController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/shiro/realm/SecondRealm.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/shiro/realm/SecondRealm.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/shiro/realm/ShiroRealm.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/shiro/realm/ShiroRealm.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/shiro/service/ShiroService.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/shiro/service/ShiroService.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/spring/Application$1.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/spring/Application$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/spring/Application.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/spring/Application.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/spring/MessagePrinter.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/spring/MessagePrinter.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/spring/MessageService.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/spring/MessageService.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/springmvc/AjaxUploadController.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/springmvc/AjaxUploadController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/springmvc/FileController.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/springmvc/FileController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/springmvc/FileUploadController.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/springmvc/FileUploadController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/springmvc/Users.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/springmvc/Users.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/swing/ActionHandler.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/swing/ActionHandler.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/swing/Loggins$1.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/swing/Loggins$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/swing/Loggins$2.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/swing/Loggins$2.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/swing/Loggins.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/swing/Loggins.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/swing/Test$1.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/swing/Test$1.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/swing/Test.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/swing/Test.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/util/C3P0DataSourceFactory.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/util/C3P0DataSourceFactory.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/util/JDBCUtils.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/util/JDBCUtils.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/lan/util/MybatisUtils.class" afterPath="$PROJECT_DIR$/target/classes/org/lan/util/MybatisUtils.class" />
-      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/org.lan/masterpiece/pom.properties" afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/org.lan/masterpiece/pom.properties" />
-      <change beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/org.lan/masterpiece/pom.xml" afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/org.lan/masterpiece/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -92,8 +32,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="602">
-              <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+            <state relative-caret-position="359">
+              <caret line="133" column="37" lean-forward="true" selection-start-line="133" selection-start-column="37" selection-end-line="134" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -501,6 +441,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3220339" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -512,7 +453,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4416761" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27092275" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27092275" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -563,7 +504,8 @@
     <MESSAGE value="首次提交代码" />
     <MESSAGE value="OK" />
     <MESSAGE value="修改maven的pom.xml日志依赖&#10;修改log4j.xml&#10;添加log4j2.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改maven的pom.xml日志依赖&#10;修改log4j.xml&#10;添加log4j2.xml" />
+    <MESSAGE value="添加AOP代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加AOP代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -930,8 +872,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+        <state relative-caret-position="359">
+          <caret line="133" column="37" lean-forward="true" selection-start-line="133" selection-start-column="37" selection-end-line="134" selection-end-column="21" />
           <folding />
         </state>
       </provider>

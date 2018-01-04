@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jee="http://www.springframework.org/schema/jee"
+	xmlns:lang="http://www.springframework.org/schema/lang"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
+		http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-4.3.xsd
+		http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang-4.3.xsd
+		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.3.xsd
+		http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-4.3.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.3.xsd">
+
+			<bean id="helloWorldImpl1" class="org.lan.spring.aop.HelloWorldImpl1" />
+	        <bean id="helloWorldImpl2" class="org.lan.spring.aop.HelloWorldImpl2" />
+	        <bean id="timeHandler" class="org.lan.spring.aop.TimeHandler" />
+	        <bean id="logHandler" class="org.lan.spring.aop.LogHandler"/>
+	        <aop:config>
+				<aop:aspect id="time" ref="timeHandler" order="1">
+					<aop:pointcut id="addTime" expression="execution(* org.lan.spring.aop.HelloWorld.*(..))" />
+					<aop:before method="printTime" pointcut-ref="addTime" />
+					<aop:after method="printTime" pointcut-ref="addTime" />
+				</aop:aspect>
+				<aop:aspect id="log" ref="logHandler" order="2">
+					<aop:pointcut id="printLog" expression="execution(* org.lan.spring.aop.HelloWorld.*(..))" />
+					<aop:before method="LogBefore" pointcut-ref="printLog" />
+					<aop:after method="LogAfter" pointcut-ref="printLog" />
+				</aop:aspect>
+
+			</aop:config>
+</beans>
