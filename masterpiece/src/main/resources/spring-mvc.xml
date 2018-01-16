@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xmlns:aop="http://www.springframework.org/schema/aop"
+               xmlns:c="http://www.springframework.org/schema/c"
+               xmlns:cache="http://www.springframework.org/schema/cache"
+               xmlns:context="http://www.springframework.org/schema/context"
+               xmlns:jee="http://www.springframework.org/schema/jee"
+               xmlns:lang="http://www.springframework.org/schema/lang"
+               xmlns:p="http://www.springframework.org/schema/p"
+               xmlns:task="http://www.springframework.org/schema/task"
+               xmlns:util="http://www.springframework.org/schema/util"
+               xmlns:mvc="http://www.springframework.org/schema/mvc"
+               xsi:schemaLocation="http://www.springframework.org/schema/cache http://www.springframework.org/schema/cache/spring-cache-4.3.xsd
+		http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-4.3.xsd
+		http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-4.3.xsd
+		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.3.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
+		http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang-4.3.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.3.xsd">
+
+
+
+
+<!-- 设置使用注解的类所在的包 -->
+<context:component-scan base-package="org.lan.springmvc.controller"/>
+<!-- 启用spring mvc 注解 -->
+<mvc:annotation-driven/>
+<!-- 静态资源默认servlet配置
+    (1)加入对静态资源的处理：js,gif,png
+    (2)允许使用"/"做整体映射
+ -->
+<mvc:default-servlet-handler/>
+    <!--<mvc:resources mapping="/common/**" location="/common/"/>-->
+    <!--<mvc:resources mapping="/pages/**" location="/pages"/>-->
+    <!--<mvc:resources mapping="/images/**" location="/images/"/>-->
+<!-- jsp视图 -->
+<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+    <property name="prefix" value="/pages/" />
+    <property name="suffix" value=".jsp" />
+</bean>
+</beans>

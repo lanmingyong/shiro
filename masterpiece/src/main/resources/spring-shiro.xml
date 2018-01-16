@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xmlns:cache="http://www.springframework.org/schema/cache"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:jee="http://www.springframework.org/schema/jee"
+       xmlns:lang="http://www.springframework.org/schema/lang"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:task="http://www.springframework.org/schema/task"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/cache http://www.springframework.org/schema/cache/spring-cache-4.3.xsd
+		http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-4.3.xsd
+		http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-4.3.xsd
+		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.3.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
+		http://www.springframework.org/schema/lang http://www.springframework.org/schema/lang/spring-lang-4.3.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.3.xsd
+        http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.3.xsd">
+    <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+        <property name="realm" ref="shiroUserRealm"/>
+    </bean>
+    <bean id="shiroUserRealm" class="org.lan.shiro.realm.ShiroUserRealm"/>
+    <bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
+        <property name="securityManager" ref="securityManager"/>
+        <property name="successUrl" value="/pages/success.jsp"/>
+        <property name="unauthorizedUrl" value="/pages/unauthorized.jsp"/>
+        <property name="filterChainDefinitions">
+            <value>
+                /login.jsp= anon
+                /common/**=anon
+                /images/**=anon
+                /user/login=anon
+                /user/username=anon
+                /user/password=anon
+                /user/logout = logout
+                /**=authc
+            </value>
+        </property>
+    </bean>
+    <!-- 开启Shiro注解的Spring配置方式的beans。在lifecycleBeanPostProcessor之后运行 -->
+    <bean
+            class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator"
+            depends-on="lifecycleBeanPostProcessor"/>
+    <bean
+            class="org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor">
+        <property name="securityManager" ref="securityManager"/>
+    </bean>
+
+    <bean id="lifecycleBeanPostProcessor"
+          class="org.apache.shiro.spring.LifecycleBeanPostProcessor"/>
+    <!-- shiro为集成spring -->
+    <bean class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
+        <property name="exceptionMappings">
+            <props>
+                <prop key="org.apache.shiro.authz.UnauthorizedException">/user/login</prop>
+            </props>
+        </property>
+    </bean>
+</beans>

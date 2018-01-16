@@ -1,0 +1,85 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.lan.mybatis.dao.StudentMapper">
+
+    <!-- 1，size:表示缓存cache中能容纳的最大元素数。默认是1024；
+         2，flushInterval:定义缓存刷新周期，以毫秒计；
+         3，eviction:定义缓存的移除机制；默认是LRU(least recently userd，最近最少使用),还有FIFO(first in
+            first out，先进先出)
+         4，readOnly:默认值是false，假如是true的话，缓存只能读。 -->
+    <cache size="1024" flushInterval="60000" eviction="LRU" readOnly="false" />
+
+    <resultMap type="student" id="StudentResult">
+        <id property="id" column="id" />
+        <result property="name" column="name" />
+    </resultMap>
+
+    <delete id="batchDeleteStudentWithArray" parameterType="java.lang.String">
+        DELETE FROM t_student where id in
+        <foreach item="idItem" collection="array" open="(" separator=","
+                 close=")">
+            #{idItem}
+        </foreach>
+    </delete>
+
+    <delete id="batchDeleteStudentWithIdList" parameterType="java.util.List">
+        DELETE FROM t_student where id in
+        <foreach collection="list" item="idItem" index="index" open="("
+                 separator="," close=")">
+            #{idItem}
+        </foreach>
+    </delete>
+
+
+    <delete id="batchDeleteStudentWithListOnlyId" parameterType="java.util.List">
+        DELETE FROM t_student where id in
+        <foreach collection="list" index="index" item="item" open="("
+                 separator="," close=")">
+            #{item.id}
+        </foreach>
+    </delete>
+
+
+    <!-- 效率低，不推荐 -->
+    <delete id="batchDeleteStudentWithList" parameterType="java.util.List">
+        <foreach collection="list" item="item" index="index" open="" close="" separator=";">
+            DELETE  FROM t_student
+            where id=#{item.id}
+        </foreach>
+    </delete>
+
+    <update id="batchUpdateByIdList" parameterType="java.util.List">
+        UPDATE t_student set name='test' where id in
+        <foreach collection="list" item="idItem" index="index" open="("
+                 separator="," close=")">
+            #{idItem}
+        </foreach>
+    </update>
+
+    <update id="batchUpdateStudentWithList" parameterType="java.util.List">
+        <foreach collection="list" item="item" index="index" open="" close="" separator=";">
+            UPDATE t_student
+            <set>
+                name=#{item.name}
+            </set>
+            where id=#{item.id}
+        </foreach>
+    </update>
+
+    <update id="batchUpdateStudentWithMap" parameterType="java.util.Map">
+        UPDATE t_student SET name = #{name} WHERE id IN
+        <foreach collection="idList" index="index" item="idItem" open="("
+                 separator="," close=")">
+            #{idItem}
+        </foreach>
+    </update>
+
+    <insert id="batchInsertStudentWithList" parameterType="java.util.List">
+        INSERT INTO /*+append_values */ t_student (name)
+        VALUES
+        <foreach collection="list" item="item" index="index" separator=",">
+            (#{item.name})
+        </foreach>
+    </insert>
+</mapper>
